@@ -1,0 +1,35 @@
+nav{
+    background-color: black;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    width: 10%;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo { 
+ flex-grow: 3;   
+}
+
+.logo img {
+    width: 10%;
+}
+
+.menu a:hover {
+    background-color: chocolate;
+    color: cyan;
+    border: darkcyan 5px;
+    border-radius: 3px;
+}

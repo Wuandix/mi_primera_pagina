@@ -1,0 +1,50 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+footer {
+    background-color: darkcyan;
+    color: rgb(25, 206, 146);
+    text-align: center;
+    height: 80px;
+    
+}
+
+footer p {
+    padding-top: 2%;
+}
+
+.conteiner {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+
+}
+
+.section-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character {
+    width: 25%;
+    margin: 3%;
+    border: 2px rgb(150, 235, 14);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.character img {
+    width: 80%;
+    border-radius: 3%;
+    border: 1px coral solid;
+
+}
+
+header {
+    text-align: center;
+}
